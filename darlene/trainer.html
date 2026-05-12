@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+     <style type="text/css">
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                padding: 50px;
+            }
+
+            fieldset {
+                width: 400px;
+                margin: 0 auto;
+                padding: 20px;
+                background-color: #fff;
+                border: 2px solid #ccc;
+                border-radius: 10px;
+            }
+
+            h1 {
+                text-align: center;
+                color: #333;
+            }
+
+            input[type="text"], select {
+                width: 100%;
+                padding: 10px;
+                margin: 10px 0;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                box-sizing: border-box;
+
+            
+            }
+
+            button{
+                width: 100%;
+                padding: 12px;
+                background-color: #4CAF50;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 16px;
+            }
+
+            button:hover {
+                background-color: #45a049;
+            }
+
+            label {
+                font-weight: bold;
+            }
+
+            .gender-section {
+                display: flex;
+                justify-content: space-evenly;
+                margin-bottom: 20px;
+            }
+        </style>
+
+	<link rel="stylesheet" type="text/css" href="proj.css">
+</head>
+<body>
+	<div id="k">
+	<center><h2 class="bounce-title">WELCOME TO LYCEE DE NYANZA</h2>
+	</center> 
+	<center>
+	<a href="proj.html">Home</a>
+	<a href="about.html">About us</a>
+		<a href="academics.html">Academic</a>		
+		<a href="service.html">Service</a>
+		<a href="admistration.html">Admistration</a>
+		<a href="gallery.html">gallely</a>
+<a href="contact.html">contact</a></div><br><br><br><br>
+    <center>
+    <form method="POST" action="jd.php">
+       
+        <fieldset>
+            <h1>TRAINER REGISTRATION</h1>  
+            <br>
+     
+
+            <label for="fname"> TRAINER NAME</label><br>
+            <input type="text" name="name" placeholder="enter your name" required> <br>
+
+                 <label for="NUMBER">NUMBER</label><br>
+            <input type="text" name="reg" placeholder="078/079" required> <br>
+
+            <label for="email">EMAIL</label><br>
+            <input type="text" name="email" placeholder="you@gmail.com" required> <br>
+
+                 <label for="number">PASSWORD</label><br>
+            <input type="text" name="password" placeholder="......." required> <br>
+
+            <label for="number">ID</label><br>
+            <input type="text" name="number" placeholder="****************" required> <br>
+
+             <label for="dob">DATE OF BIRTH</label><br>
+            <input type="date" name="dob" id="dob" required> <br><br>
+
+            <SELECT>
+                <option value="select an option">Select an option trainer trade</option>
+                <option value="Multimedia">Multimedia Production</option>
+                <option value="software Development">Software Development</option>
+                <option value="Building and Construction">Building and Construction</option>
+            </select> <br><br>
+
+            <label for="gender">GENDER</label><br>
+            <div class="gender-section">
+                <label><input type="radio" name="gender" value="male" required> MALE</label>
+                <label><input type="radio" name="gender" value="female" required> FEMALE</label>
+            </div>
+            <br><br>
+
+            <button type="submit" name="submit">Register</button>
+        </fieldset>
+    </form>
+</center>
+
+
+
+</body>
+</html>
